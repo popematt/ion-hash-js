@@ -10,29 +10,30 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/amzn/ion-hash-js.git"
+    "url": "https://github.com/amazon-ion/ion-hash-js.git"
   },
   "keywords": [
     "ion",
     "hash"
   ],
-  "author": "The Ion Team <ion-team@amazon.com> (https://amzn.github.io/ion-docs/)",
+  "author": "The Ion Team <ion-team@amazon.com> (https://amazon-ion.github.io/ion-docs/)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/amzn/ion-hash-js/issues"
+    "url": "https://github.com/amazon-ion/ion-hash-js/issues"
   },
-  "homepage": "https://github.com/amzn/ion-hash-js#readme",
+  "homepage": "https://github.com/amazon-ion/ion-hash-js#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-contrib-clean": "^1.0.0",
-    "grunt-ts": "^6.0.0-beta.19",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-ts": "^6.0.0-beta.22",
     "grunt-typedoc": "^0.2.4",
     "intern": "^4.4.3",
     "ion-js": "^4.0.0",
     "jsbi": "3.1.1",
-    "typedoc": "^0.17.3",
-    "typedoc-plugin-no-inherit": "^1.1.10",
-    "typescript": "^3.5.3"
+    "prettier": "2.1.2",
+    "tslint": "^5.20.1",
+    "typedoc": "^0.16.10",
+    "typescript": "^3.9.3"
   },
   "peerDependencies": {
     "ion-js": "^4.0.0",
